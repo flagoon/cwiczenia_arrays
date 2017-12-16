@@ -7,3 +7,4 @@ $big = [
 ];
 
 var_export($big);
+echo PHP_EOL, $big['small']['key'], PHP_EOL;
