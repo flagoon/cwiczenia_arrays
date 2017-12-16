@@ -31,5 +31,6 @@ $cars = [
         ],
     ],
 ];
-
-var_export($cars);
+echo PHP_EOL;
+var_export(isset($cars['mercedes']));
+echo PHP_EOL;
